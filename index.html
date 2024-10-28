@@ -25,15 +25,8 @@
             <button type="submit"><strong>Enviar</strong></button>
 
             <input type="hidden" name="accessKey" value="ad7a1282-99c3-4e17-9b1b-78d53930a43e">
-            <input type="submit" value="Enviar" onclick="redireciona()" />
-
-            <script>
-                function redireciona() {
-                    var accessKey = document.getElementById("acessKey").value;
-                    location.href = "https://nathy-d.github.io/Formul-rio-de-Contatos/" + accessKey;
-
-                }
-            </script>
+            <input type="hidden" name="redirectTo" value="https://nathy-d.github.io/Formul-rio-de-Contatos/">
+            
         </form>
     </section>
 </body>
