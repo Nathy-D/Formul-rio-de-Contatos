@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>ARGEU COSTA ADVOGADOS - FORMULÁRIO</title>
-    <meta http-equiv="refresh" content="0; url=https://nathy-d.github.io/Formul-rio-de-Contatos/">
 </head>
 
 <body>
@@ -26,6 +25,15 @@
             <button type="submit"><strong>Enviar</strong></button>
 
             <input type="hidden" name="accessKey" value="ad7a1282-99c3-4e17-9b1b-78d53930a43e">
+            <input type="submit" value="Enviar" onclick="redireciona()" />
+
+            <script>
+                function redireciona() {
+                    var accessKey = document.getElementById("acessKey").value;
+                    location.href = "https://nathy-d.github.io/Formul-rio-de-Contatos/" + accessKey;
+
+                }
+            </script>
         </form>
     </section>
 </body>
